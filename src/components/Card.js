@@ -17,7 +17,7 @@ function Card(props) {
 
     <h2 className ='card__title'> { titleText } </h2>
     <p className ='card__dece' > { deceText } </p>
-    <p className ='card__footer'> { footerSection }  </p>
+    <p className ='card__footer'> { footerSection } </p>
 
 
     
@@ -30,4 +30,3 @@ function Card(props) {
 }
 
 export default Card;
- 
