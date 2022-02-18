@@ -11,19 +11,26 @@ this.state = {
 }
 }
 
-handleIncriment = () => {
+
+
+
+
+
+handle___Incriment = () => {
 
     //console.log("clicked");
-this.setState({
+    
+this.setState( {
 
     count : this.state.count + 1
-})
+} )
 
 }
 
-handleDecriment = () => {
+handle___Decriment = () => {
 
     //console.log("clicked");
+
 this.setState({
 
     count : this.state.count - 1
@@ -45,10 +52,11 @@ const {count} = this.state
     return (
     <div>
 
-        <h1>Count : {count} </h1>
+        <h1> Count : {count} </h1>
 
-    <button onClick={this.handleIncriment} disabled = {count===10 ? true : false}> + </button>
-    <button onClick={this.handleDecriment} disabled = {count===0 ? true : false}> - </button>
+
+    <button onClick = {this.handle___Incriment}  disabled = { count === 10 ? true : false }> + </button>
+    <button onClick = {this.handle___Decriment}  disabled = { count === 0 ? true : false }> - </button>
 
 
     </div>

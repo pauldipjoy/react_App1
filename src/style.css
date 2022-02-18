@@ -1,5 +1,5 @@
 body {
-  background-color: darkgray;
+  background-color: #f0f2a6;
   color: white;
 }
 
@@ -11,5 +11,5 @@ button {
   color: white;
   font-size: 2rem;
   margin-right: 10px;
-  width: 80px;
+  width: 50px;
 }
