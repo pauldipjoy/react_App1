@@ -1,71 +1,76 @@
-import React, { Component } from 'react';
-import HomePage from './HomePage.js';
-import LoginPage from './LoginPage.js';
 
-class CONDITIONAL__RENDERING  extends Component {
+// class CONDITIONAL__RENDERING  extends Component {
 
 
-    constructor(props) {
-    super(props)
+//     constructor(props) {
+//     super(props)
     
-    this.state = {
+//     this.state = {
 
-    is__Logged__In : false
+//     is__Logged__In : true
     
 
 
-    }
+//     }
 
-    }
-
-
-
-render() {
-
-    const { is__Logged__In } = this.state;
-
-    // let element;
+//     }
 
 
-// Ternary operator
-//  element = is__Logged__In ? <HomePage /> : <LoginPage />
+
+// render() {
+
+//     const { is__Logged__In } = this.state;
+
+//     // let element;
 
 
-// if(is__Logged__In){
+// // Ternary operator
+// //  element = is__Logged__In ? <HomePage /> : <LoginPage />
 
-// element =  <HomePage  />
+
+// // if(is__Logged__In){
+
+// // element =  <HomePage  />
+
+// // }
+
+// // else{
+
+// // element = <LoginPage  />
+
+// // }
+
+// return(
+
+// <div>
+
+// {/* {element} */}
+
+// {/* ternary  operator direct in jsx */}
+// {/* { is__Logged__In ? <HomePage /> : <LoginPage /> } */}
+
+
+
+// {/* logical && operator or  short circuit */}
+
+// { is__Logged__In && <HomePage/> }
+
+
+
+
+// </div>
+
+
+
+
+
+// )
+
+
+
 
 // }
-
-// else{
-
-// element = <LoginPage  />
-
 // }
 
-return(
 
-<div>
-
-{/* {element} */}
-
-{/* ternary  operator direct in jsx */}
-{ is__Logged__In ? <HomePage /> : <LoginPage /> }
-
-
-</div>
-
-
-
-
-
-)
-
-
-
-
-}
-}
-
-
-export default CONDITIONAL__RENDERING;
+// export default CONDITIONAL__RENDERING;

@@ -1,12 +1,8 @@
 import React from "react";
+import EVENT_HANDLER_CLASS from './EVENT_HANDLER_CLASS/index.js';
 
-import Card from "./components/Card.js";
-import Card1 from "./components/Card1.js";
-import Card2 from "./components/Card2.js";
-import Data from "./data.json";
-import State from "./State.js";
 
-import CONDITIONAL__RENDERING from './Conditional__Rendering/index.js';
+
 
 function App() {
 
@@ -52,7 +48,11 @@ return <div>
 
 
 
-              <CONDITIONAL__RENDERING    />
+              {/* <CONDITIONAL__RENDERING  /> */}
+              
+
+
+              <EVENT_HANDLER_CLASS     />
 
 
 
