@@ -1,5 +1,9 @@
 import React from "react";
-import EVENT_HANDLER_CLASS from './EVENT_HANDLER_CLASS/index.js';
+import EVENT_BINDING from './EVENT_BINDING/index.js';
+
+
+
+
 
 
 
@@ -52,7 +56,13 @@ return <div>
               
 
 
-              <EVENT_HANDLER_CLASS     />
+              {/* <EVENT_HANDLER_CLASS     /> */}
+
+
+
+               <EVENT_BINDING  />
+
+
 
 
 

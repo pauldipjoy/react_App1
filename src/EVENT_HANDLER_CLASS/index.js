@@ -2,16 +2,16 @@ import React, { Component } from 'react';
 
  class  EVENT_HANDLER_CLASS  extends  Component  {
 
-    constructor(props) {
-      super(props)
+constructor(props) {
+super(props)
     
-      this.state = {
+this.state = {
 
 
-        changeValue : ""
+        changedValue : ''
     
-      }
-    }
+}
+}
 
 
 
@@ -21,15 +21,20 @@ import React, { Component } from 'react';
     // }
 
     handle__On__Chnage = (e) => {
-       
-       
+
+    
 
         this.setState({
 
-            changeValue : e.target.value
-        } , () =>{
+            changedValue : e.target.value
+            
+        } ,  () => { // callback function
 
-          console.log(this.state.changeValue);
+
+            
+
+
+        console.log(this.state.changedValue);
 
         })
 
@@ -53,7 +58,7 @@ render() {
 
     <input type = "text"  onChange={this.handle__On__Chnage}/>
 
-    <p>{this.state.changeValue}</p>
+    <p> { this.state.changedValue } </p>
 
     </div>
     )
@@ -63,3 +68,4 @@ render() {
 
 
 export default EVENT_HANDLER_CLASS;
+ 
